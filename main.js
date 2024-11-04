@@ -28,3 +28,9 @@ tickets.forEachticket => {
         `;
         
         }};
+
+        //Task 4: Use finally to ensure cleanup
+        finally {
+            // Hide loading indicator
+            loadingMessage.style.display = 'none';
+        }
